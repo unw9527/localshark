@@ -19,6 +19,8 @@ localshark is basically a workaround for this: it lets you develop and test your
 ## How to use?
 Simply run `start-container.sh` to and enjoy your development.
 
+<img src='https://github.com/unw9527/localshark/blob/main/images/interface.png' width='50%'>
+
 ## Pre-requisite
 You need to have docker installed on your machine (and of course start docker before you run the script).
 
@@ -30,6 +32,12 @@ The Summer 2023 version has 1+7 labs, and the labs that are explicitly supported
 * malloclab
 * shelllab
 * proxylab
+
+**Example test results**:
+
+<img src='https://github.com/unw9527/localshark/blob/main/images/cordlab-grade.png' width='40%'>
+
+<img src='https://github.com/unw9527/localshark/blob/main/images/datalab-grade.png' width='40%'>
 
 bomblab and attacklab are **not** supported for two reasons:
 1. These two labs require no coding at all. I do not see any point of setting up a local dev env for labs without coding.
